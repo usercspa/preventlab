@@ -1,7 +1,11 @@
 install.packages("tidyverse")
-library("tidyverse")
-require("ggplot")
-require("dplyr")
+library(dplyr)
+library(readr)
+library(ggplot2)
+library(ggthemes)
+library(scales)
+library(maps)
+library(mapproj)
 
 list.files(path = "../input")
 
